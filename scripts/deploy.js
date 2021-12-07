@@ -17,7 +17,7 @@ async function main() {
   const pool = await Pool.deploy(mPUNDIX.address, mPURSE.address)
   await pool.deployed()
 
-  console.log('MPUNDIX deployed to:', mPUNDIX.address)
+  console.log('mPUNDIX deployed to:', mPUNDIX.address)
   console.log('mPUNRSE deployed to:', mPURSE.address)
   console.log('Pool deployed to:', pool.address)
 }
