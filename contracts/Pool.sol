@@ -41,4 +41,6 @@ contract Pool {
 
         return success;
     }
+
+    receive() external payable {}
 }
