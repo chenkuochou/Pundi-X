@@ -20,7 +20,7 @@ describe('Pool', function () {
     ;[owner, addr1, addr2, _] = await ethers.getSigners()
   })
 
-  // need to find a way re-fund addr1 & addr2 with mPUNDIX & mPURSE
+  // need to find a way pre-fund addr1 & addr2 with mPUNDIX & mPURSE
 
   // describe('Transactions', function () {
   //   it('Should update poolBalance when deposit', async function () {

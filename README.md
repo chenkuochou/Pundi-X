@@ -1,6 +1,6 @@
 # Pundi X
 
-##Ropsten testnet
+## Ropsten testnet
 
 Deploying contracts with the account: `0x2368ccf7Fcc447399d77FB46Fb5Eb107e0f80A86`
 
