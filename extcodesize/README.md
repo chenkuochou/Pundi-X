@@ -12,9 +12,11 @@ Attacker deployed to: `0x0653ef860762f78878aA1786522e380d63b0e739` to interact w
 
 ## Local test result
 
-    Does Victim treat Attacker as a contract? false
+        Interactions
     Does Victim treat NormalContract as a contract? true
-        ✓ Calling from different contracts (746ms)
+        ✓ Calling from a normal contract
+    Does Victim treat Attacker as a contract? false
+        ✓ Calling from an attacker
 
 
-    1 passing (750ms)
+    2 passing (848ms)

@@ -12,8 +12,6 @@ contract Attacker {
     constructor(address _address) {
         v = Victim(_address);
         isContract = v.extcodesize();
-
-        console.log("Does Victim treat Attacker as a contract?", isContract);
     }
 
     function name() external pure returns (string memory) {
