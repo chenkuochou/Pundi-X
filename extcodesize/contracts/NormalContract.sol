@@ -1,7 +1,7 @@
 //SPDX-License-Identifier: MIT
 pragma solidity 0.8.10;
 
-import "hardhat/console.sol";
+// import "hardhat/console.sol";
 import "./Victim.sol";
 
 contract NormalContract {
@@ -12,7 +12,7 @@ contract NormalContract {
     function callingOutsideConstructor(address _address) public returns (bool) {
         v = Victim(_address);
         isContract = v.extcodesize();
-        
+
         return isContract;
     }
 

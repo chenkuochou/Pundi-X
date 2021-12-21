@@ -1,7 +1,7 @@
 //SPDX-License-Identifier: MIT
 pragma solidity 0.8.10;
 
-import "hardhat/console.sol";
+// import "hardhat/console.sol";
 import "./Victim.sol";
 
 contract Attacker {

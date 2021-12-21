@@ -4,11 +4,11 @@
 
 Deploying contracts with the account: `0x2368ccf7Fcc447399d77FB46Fb5Eb107e0f80A86`
 
-Victim deployed to: `0xF581C33A3382D25444CB56e39adcf46e6E73def3` containing the `extcodesize` function
+Victim deployed to: `0x87872D4e10f1F59282931B0a3a1727164C5a03D5` containing the `extcodesize` function
 
-NormalContract deployed to: `0x7b1fA6A8DAd545C1F3E34e1c03566e1FB54C512B` to interact with Victim and return `True` from extcodesize
+NormalContract deployed to: `0x114C3B486954eD9b35d37696B35A7b79f8aADbaf` to interact with Victim and return `True` from extcodesize
 
-Attacker deployed to: `0x0653ef860762f78878aA1786522e380d63b0e739` to interact with Victim and return `False` from extcodesize
+Attacker deployed to: `0x819730953A0f8a6457315700Ce7C2A5F982520fe` to interact with Victim and return `False` from extcodesize
 
 ## Local test result
 
