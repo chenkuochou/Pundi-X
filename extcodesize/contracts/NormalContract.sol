@@ -5,20 +5,23 @@ import "hardhat/console.sol";
 import "./Victim.sol";
 
 contract NormalContract {
-    bool public attack;
+    bool public isContract;
 
-    //Victim v;
+    Victim public v;
 
-    constructor(address _v) public {}
-
-    function callingOutsideConstructor(address _address) public {
+    function callingOutsideConstructor(address _address) public returns (bool) {
         v = Victim(_address);
-        attack = v.isContract();
+        isContract = v.extcodesize();
 
-        console.log(attack);
+        console.log(
+            "Does Victim treat NormalContract as a contract?",
+            isContract
+        );
+
+        return isContract;
     }
 
-    function name() external returns (uint256) {
+    function name() external pure returns (string memory) {
         return "I'm a normal contract!";
     }
 }

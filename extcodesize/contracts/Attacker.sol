@@ -5,18 +5,18 @@ import "hardhat/console.sol";
 import "./Victim.sol";
 
 contract Attacker {
-    bool public attack;
+    bool public isContract;
 
-    //Victim v;
+    Victim public v;
 
-    constructor(address _address) public {
+    constructor(address _address) {
         v = Victim(_address);
-        attack = v.isContract();
+        isContract = v.extcodesize();
 
-        console.log(attack);
+        console.log("Does Victim treat Attacker as a contract?", isContract);
     }
 
-    function name() external returns (uint256) {
+    function name() external pure returns (string memory) {
         return "I'm an attacker!";
     }
 }
