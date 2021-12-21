@@ -10,7 +10,7 @@ NormalContract deployed to: `0x7b1fA6A8DAd545C1F3E34e1c03566e1FB54C512B` to inte
 
 Attacker deployed to: `0x0653ef860762f78878aA1786522e380d63b0e739` to interact with Victim and return `False` from extcodesize
 
-## Local test resule
+## Local test result
 
     Does Victim treat Attacker as a contract? false
     Does Victim treat NormalContract as a contract? true
