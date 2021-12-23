@@ -1,6 +1,7 @@
 # Pundi X
 
-## Ropsten testnet
+## Q6. extcodesize contracts
+### Ropsten testnet
 
 Deploying contracts with the account: `0x2368ccf7Fcc447399d77FB46Fb5Eb107e0f80A86`
 
@@ -10,7 +11,7 @@ NormalContract deployed to: `0x114C3B486954eD9b35d37696B35A7b79f8aADbaf` to inte
 
 Attacker deployed to: `0x819730953A0f8a6457315700Ce7C2A5F982520fe` to interact with Victim and return `False` from extcodesize
 
-## Local test result
+### Local test result
 
         Interactions
     Does Victim treat NormalContract as a contract? true
@@ -20,3 +21,7 @@ Attacker deployed to: `0x819730953A0f8a6457315700Ce7C2A5F982520fe` to interact w
 
 
     2 passing (848ms)
+
+## Q7. Private blockchain using geth
+
+A local private chain has been set up in devChain folder.

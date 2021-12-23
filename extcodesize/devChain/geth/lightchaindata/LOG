@@ -1,0 +1,8 @@
+=============== Dec 23, 2021 (ACDT) ===============
+22:13:25.147059 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+22:13:25.393702 db@open opening
+22:13:25.394197 version@stat F·[] S·0B[] Sc·[]
+22:13:25.486368 db@janitor F·2 G·0
+22:13:25.486418 db@open done T·92.677108ms
+22:13:25.487034 db@close closing
+22:13:25.487194 db@close done T·159.063µs
