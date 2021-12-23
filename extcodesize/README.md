@@ -1,6 +1,7 @@
 # Pundi X
 
 ## Q6. extcodesize contracts
+
 ### Ropsten testnet
 
 Deploying contracts with the account: `0x2368ccf7Fcc447399d77FB46Fb5Eb107e0f80A86`
@@ -24,4 +25,4 @@ Attacker deployed to: `0x819730953A0f8a6457315700Ce7C2A5F982520fe` to interact w
 
 ## Q7. Private blockchain using geth
 
-A local private chain has been set up in devChain folder.
+A local private chain has been set up in `devChain` folder.
