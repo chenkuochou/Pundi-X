@@ -160,3 +160,5 @@
 14:29:43.500266 table@compaction committed F-1 S-1KiB Ke·0 D·73 T·1.376757932s
 14:29:44.024903 table@remove removed @25
 14:29:44.178188 table@remove removed @24
+14:49:20.117393 db@close closing
+14:49:20.118903 db@close done T·1.509266ms
