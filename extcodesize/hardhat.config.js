@@ -13,7 +13,7 @@ module.exports = {
   solidity: '0.8.10',
   networks: {
     hardhat: {
-      chainId: 1337,
+      chainId: 4551,
     },
     ropsten: {
       url: `https://ropsten.infura.io/v3/${process.env.INFURA_PROJECT_ID}`,
